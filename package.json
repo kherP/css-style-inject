@@ -24,5 +24,18 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "semantic-release": "^17.3.9"
-  }
+  },
+  "release": {
+    "pkgRoot": "dist",
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        "@semantic-release/github"
+    ]
+},
 }
