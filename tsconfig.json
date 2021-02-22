@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "lib",
+        "module": "esnext",
+        "moduleResolution": "Node",
+        "target": "ES5",
+        "lib": ["ES2015", "ES6", "ES2017", "DOM"],
+        "declaration": true,
+        "declarationDir": "dist",
+        "sourceMap": true,
+        "importHelpers": true,
+        "noImplicitReturns": false,
+        "noImplicitThis": false,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "exclude": ["coverage", "dist"],
+    "types": ["typePatches"]
+}
