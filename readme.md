@@ -1,4 +1,4 @@
-<h1 align="center"> CSS Inject </h1>
+<h1 align="center"> css-style-inject </h1>
 
 <hr/>
 
@@ -16,7 +16,7 @@
 <h3> Download & Installation </h3>
 
 ```shell
-$ npm i css-inject
+$ npm i css-style-inject
 ```
 <h3>Contributing</h3>
 Keep it simple. Keep it minimal.
