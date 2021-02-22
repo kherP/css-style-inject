@@ -4,13 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "rollup -c",
-    "release": "semantic-release",
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "prebuild": "rimraf dist",
+        "build": "rollup -c",
+        "release": "semantic-release",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": ["css", "inject", "typescript", "javascript", "plugin"],
-    "author": "",
+    "author": "Kher Phay Chang",
     "license": "ISC",
     "dependencies": {
         "typescript": "^4.1.5"
