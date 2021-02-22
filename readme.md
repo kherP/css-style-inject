@@ -3,7 +3,7 @@
 <hr/>
 
 <p> 
-    This is a plugin to inject styles to document head dynamically and it does checking by unique id to prevent style duplication.
+    This is a plugin to inject styles to document head dynamically and it checks injections by unique id to prevent style duplication.
 </p>
 
 <h3> List of features </h3>

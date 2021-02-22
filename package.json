@@ -1,8 +1,16 @@
 {
     "name": "css-style-inject",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is a plugin to inject styles to document head dynamically and it checks injections by unique id to prevent style duplication.",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kherP/css-style-inject.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kherP/css-style-inject/issues"
+    },
+    "homepage": "https://github.com/kherP/css-style-inject/",
     "scripts": {
         "prebuild": "rimraf dist",
         "build": "rollup -c",
