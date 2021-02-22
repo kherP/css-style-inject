@@ -28,17 +28,14 @@
     "release": {
         "pkgRoot": "dist",
         "branches": [
-            "+([0-9])?(.{+([0-9]),x}).x",
             "main",
-            "next",
+            "next", 
             "next-major",
             {
-              "name": "beta",
-              "prerelease": true
+                "name": "beta", "prerelease": true
             },
             {
-              "name": "alpha",
-              "prerelease": true
+                "name": "alpha", "prerelease": true
             }
         ],
         "plugins": [
