@@ -4,10 +4,15 @@
  * @param css 
  */
 export function injectCSS(css: string, uniqueId: string, isPrepend?: boolean) {
-    const isExists: boolean = !!document.querySelector(`style[id="${uniqueId}"]`)
-    if (!css || !document || isExists) {
+    if (!css || !document) {
         return;
     }
+
+    const exists = !!document.querySelector(`style[id="${uniqueId}"]`)
+    if (exists) {
+        return;
+    }
+
     const cssElement = document.createElement("style");
     cssElement.id = uniqueId;
     cssElement.setAttribute("type", "text/css");
