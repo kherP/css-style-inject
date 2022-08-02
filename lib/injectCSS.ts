@@ -3,7 +3,7 @@
  * @param css
  */
 export function injectCSS(css: string, uniqueId: string, isPrepend?: boolean) {
-	if (!css || !document) {
+	if (!css || typeof document === 'undefined') {
 		return;
 	}
 
